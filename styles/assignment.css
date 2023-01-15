@@ -1,0 +1,91 @@
+ /* top nav and header  */
+ .banner-top{
+    display: flex;
+   align-items: center;
+    justify-content:space-between;
+ }
+ nav{
+    margin-right:50px;
+    font-size: 12px;
+
+ }
+ .banner-head{
+    margin-left:80px;
+
+ }
+ .menu{
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+    list-style: none;
+    margin-right: 50px;
+ }
+ /* banner description */
+.about-title{
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 85px;
+    width: 254px;
+    
+}
+.company-dis{
+width: 625px;
+align-items: center;
+margin-left: 385px;
+color:#727272;
+}
+.first-btn{
+    margin-left: 600px;
+    background-color: orange;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+/* banner picture */
+img{
+    width: 1220px;
+    height: 700px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 15px;
+    
+}
+/* media quarry */
+
+/* for phone  */
+
+@media only screen and (max-width:688px) {
+  .banner-top{
+    flex-direction: column;
+    
+  }
+    .banner-head{
+margin-right: 250px;
+
+    }
+    nav{
+    margin-right: 200px;
+    }
+ .menu{
+    flex-direction: column;
+ }
+    .about-title{
+    
+    width:50px;
+     margin-left:5px;
+   } 
+   .company-dis{
+    margin-left:10px; 
+    width:150px;
+       }
+    img{
+        width:185px;
+        height: 100px;
+    }
+    .first-btn{
+         margin-left: 20px;
+    }
+    
+   }
+ 
