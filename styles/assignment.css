@@ -10,7 +10,7 @@
 
  }
  .banner-head{
-    margin-left:80px;
+     margin-left:80px;
 
  }
  .menu{
@@ -22,20 +22,17 @@
  }
  /* banner description */
 .about-title{
-    justify-content: center;
-    margin-left: 550px;
-    margin-top: 85px;
-    width: 254px;
+   text-align: center;
     
 }
 .company-dis{
 width: 625px;
-align-items: center;
-margin-left: 385px;
+margin-left: 300px;
+text-align: center;
 color:#727272;
 }
 .first-btn{
-    margin-left: 600px;
+    margin-left: 550px;
     background-color: orange;
     border: none;
     height: 35px;
@@ -43,7 +40,7 @@ color:#727272;
     color: aliceblue;
 }
 /* banner picture */
-img{
+.banner-pic,img{
     width: 1220px;
     height: 700px;
     margin-top: 35px;
@@ -123,7 +120,7 @@ height: 400px;
     height: 25px;
     border-radius: 5px;
 }
-.body{
+.jack-pot{
     display: flex;
     align-items: center;
     gap: 200px;
@@ -154,4 +151,106 @@ height: 400px;
     height: 200px;
 margin-right: 200px;
 }
+}
+/* more feature  */
+.enjoy{
+    margin-top: 100px;
+}
+.pera{
+    width: 550px;
+}
+.features-taitle{
+    margin-top: 20px;
+}
+.girl{
+    width: 600px;
+    height: 500px;
+}
+.middle{
+    display: flex;
+}
+.third-btn{
+    background-color: coral;
+    height: 100px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+  top: -75px;
+}
+ /* extra seaction    */
+ .extra-section{
+    width: 800px;
+    display: flex;
+    gap: 260px;
+    background-color: antiquewhite;
+ }
+ .extra{
+    margin-top: 50px;
+    margin-left: 100px;
+ }
+.bari{
+    height: 400px;
+    width: 400px;
+}
+.barir-dis{
+    width: 350px;
+}
+.dolor{
+    width: 330px;
+}
+/* some facts */
+.icon-1{
+height: 60px;
+width: 50px;
+margin-left: 50px;
+position:relative;
+bottom: 25px;
+}
+
+.box-1{
+    border: 2px solid rgb(234, 250, 178);
+width: 150px;
+height: 150px;
+
+
+}
+.h2-tag{
+    margin-left: 60px;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 40px;
+}
+.award{
+    margin-left:25px ;
+    width: 150px;
+    position: relative;
+    bottom: 40px;
+}
+.all-box{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-1:hover{
+    background-color: rgb(180, 212, 212);
+}
+/* our sponsor */
+.sponsor{
+    text-align: center;
+    margin-top: 100px;
+}
+.amazon{
+    height: 50px;
+    width: 100px;
+}
+.sponsor-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    margin-top: 85px;
+    text-align: center;
 }
